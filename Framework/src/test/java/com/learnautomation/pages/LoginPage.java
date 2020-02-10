@@ -9,6 +9,7 @@ public class LoginPage {
 	WebDriver driver;
 
 	public LoginPage(WebDriver ldriver) {
+		// This is new commit from Sultan
 		this.driver = ldriver;
 	}
 
