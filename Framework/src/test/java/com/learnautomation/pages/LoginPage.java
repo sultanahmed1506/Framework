@@ -13,7 +13,7 @@ public class LoginPage {
 		this.driver = ldriver;
 	}
 
-	// page object of Login Page
+	// Comments added to page object of Login Page
 	@FindBy(xpath = "//input[@placeholder='E-mail address']")
 	WebElement e_mail;
 	@FindBy(xpath = "//input[@placeholder='Password']")
