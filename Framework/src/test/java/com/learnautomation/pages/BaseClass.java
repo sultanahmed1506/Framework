@@ -37,8 +37,10 @@ public class BaseClass {
 		ExtentHtmlReporter extent = new ExtentHtmlReporter(
 				new File(System.getProperty("user.dir") + "/Reports/FreeCRM_" + Helper.getCurrentDateTime() + ".html"));
 		report = new ExtentReports();
+		report.setSystemInfo("Environment", "QA");
+		report.setSystemInfo("User", "Sultan");
 		report.attachReporter(extent);
-		// Extent Report
+
 		Reporter.log("Setting done and Test can be started ", true);
 
 	}
